@@ -1,0 +1,429 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Teko&display=swap);
+
+body {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+#bg {
+    width :100%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../img/mobile_home_bg.png) no-repeat fixed center;
+    background-size: cover;
+}
+
+#app {
+    font-family: Teko, sans-serif;  
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.ryu-header {
+    width: 100%;
+    display: block;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 7px 10px;
+    z-index: 9999;
+    position: fixed;
+}
+.ryu-header img {
+    width: 40px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.ryu-text-header {
+    display: inline-block;
+    margin: auto;
+    position: absolute;
+    margin-top: 0px;
+    color: #fff;
+    font-size: 17px;
+}
+.ryu-text-header span {
+    display: block;
+    margin-top: -9px;
+}
+.ryu-banner {
+    display: block;
+    margin: 53px auto 0 auto;
+}
+.img-ryu-banner1 {
+    width: 90%;
+    height: 45px;
+    display: block;
+    margin: auto;
+}
+
+.ryucontent {
+    width: 100%;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.boxRyu {
+    width: 100px;
+    display: inline-block;
+    margin: 5px;
+    background: #000;
+    padding: 5px;
+    border: 1px solid rgb(255, 163, 43);;
+}
+
+.headBox {
+    width: 90px;
+    font-size: 15px;
+    color: #fff;
+    display: block;
+    margin: auto;
+    text-align: center;
+    background: url(../img/m_tab_on.png) no-repeat 0 0;
+    cursor: pointer;
+}
+
+.boxRyu img {
+    width: 90px;
+    display: block;
+    margin: auto;
+    border-top: 1px solid rgb(255, 163, 43);;
+    border-bottom: 1px solid rgb(255, 163, 43);;
+}
+
+.cat {
+    width: 100%;
+    display:block;
+    margin: 20px auto;
+}
+
+.catBox {
+    width: 90%;
+    padding: 5px 0;
+    font-size: 15px;
+    color: #fff;
+    display: block;
+    margin: auto;
+    text-align: center;
+    background: url(../img/m_tab_on.png) no-repeat center;
+    background-size: 100%;
+    border-radius: 5px;
+}
+
+#selectLogin {
+    font-family: Teko, sans-serif;  
+    width: 100%;
+    height: 100%;
+    display: none;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.catBox2 {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 15px;
+    color: #fff;
+    display: block;
+    margin: auto;
+    text-align: center;
+    background: url(../img/m_tab_on.png) no-repeat center;
+    background-size: 100%;
+    border-radius: 7px 7px 0px 0px;
+    font-size: 17px;
+}
+
+.cat2 {
+    width: 90%;
+    display:block;
+    margin: 20px auto;
+}
+
+.closeBox {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    position: fixed;
+    right: 7px;
+    margin-top: -42px;
+    float: right;
+    background: #fff;
+    color: #261565;
+    border-radius: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.contentLogin {
+    background: #000;
+    border-top: 0px;
+    border: 1px solid rgb(255, 163, 43);;
+    padding: 10px 0;
+    border-radius: 0px 0px 7px 7px;
+}
+
+.btnLogin {
+    width: 90%;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    background: rgb(78, 110, 255);
+    color: #fff;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btnLogin:hover {
+    opacity: 0.9;
+}
+
+.logVK {
+    background: rgb(109, 136, 255) !important;
+}
+
+.popup-login {
+	background:rgba(0,0,0,0.5);
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:9999;
+}
+.popup-box-login-fb {
+	background:#ECEFF6;
+	max-width:330px;
+	height:auto;
+	position:relative;
+	margin:50px auto;
+	margin-top:1.9%;
+	text-align:center;
+	font-family:'Teko';
+	color:#000;
+	border-radius:10px;
+}
+.popup-box-login-twitter {
+	background:#fff;
+	max-width:330px;
+	height:350px;
+	position:relative;
+	margin:50px auto;
+	margin-top:10%;
+	text-align:center;
+	font-family:'Teko';
+	color:#000;
+	border-radius:10px;
+}
+.popup-box-login-google {
+	background:#fff;
+	max-width:330px;
+	height:400px;
+	position:relative;
+	margin:50px auto;
+	margin-top:10%;
+	padding:15px;
+	text-align:center;
+	font-family:'Teko';
+	color:#000;
+	border-radius:10px;
+}
+.close-fb {
+	background:#000;
+	width:20px;
+	height:20px;
+	color:#fff;
+	text-align:center;
+	text-decoration:none;
+	border-radius:50%;
+	border:1.5px solid #fff;
+	position:absolute;
+	top:-8px;
+	right:-10px;
+	display:block;
+}
+.close-fb i {
+	color:#fff;
+	padding-top:1px;
+}
+.close-other {
+	background:#000;
+	width:20px;
+	height:20px;
+	color:#fff;
+	text-align:center;
+	text-decoration:none;
+	border-radius:50%;
+	border:1.5px solid #fff;
+	top:-8px;
+	right:-10px;
+	position:absolute;
+	z-index:9999999;
+	display:block;
+}
+.close-other i {
+	color:#fff;
+	padding-top:1px;
+}
+
+.scroll {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.formInfo label {
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    display: block;
+    margin: 0;
+}
+
+.formInfo input {
+    font-size: 14px;
+    padding: 0px 2px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgb(255, 163, 43) !important; 
+    border-radius: 0;
+    outline: none;
+    color: #fff !important;
+}
+
+.formInfo input:focus {
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgb(255, 163, 43) !important; 
+    box-shadow: 0 0 0 transparent;
+}
+
+.formInfo input::placeholder {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.formInfo select {
+    font-size: 12px;
+    padding: 0px 2px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgb(255, 163, 43) !important; 
+    border-radius: 0;
+    outline: none;
+    color: #fff !important;
+}
+
+.formInfo select:focus {
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgb(255, 163, 43) !important; 
+    box-shadow: 0 0 0 transparent;
+}
+
+.btn-custom {
+    width: 100%;
+    color: #fff !important;
+    font-size: 2em;
+    background-color: rgb(255, 163, 43) !important; 
+    border: 1px solid rgb(255, 163, 43) !important; 
+}
+
+@media only screen and (min-width: 600px) {
+    #bg {
+        width: 400px;
+        height: auto;
+    }
+
+    #app {
+        width: 400px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .ryu-header {
+        width: 400px;
+        display: block;
+        margin: auto;
+        background: rgba(0, 0, 0, 0.6);
+        padding: 7px 10px;
+        z-index: 9999;
+        position: fixed;
+    }
+
+    #selectLogin {
+        font-family: Teko, sans-serif;  
+        width: 400px;
+        height: 100%;
+        display: none;
+        margin: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 2;
+        background: rgba(0, 0, 0, 0.6);
+    }
+    
+    .catBox2 {
+        width: 350px;
+        padding: 5px 0;
+        font-size: 15px;
+        color: #fff;
+        display: block;
+        margin: auto;
+        text-align: center;
+        background: url(../img/m_tab_on.png) no-repeat center;
+        background-size: 100%;
+        border-radius: 7px 7px 0px 0px;
+        font-size: 17px;
+    }
+    
+    .cat2 {
+        width: 350px;
+        display:block;
+        margin: 20px auto;
+    }
+
+    .closeBox {
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        position: fixed;
+        right: 7px;
+        margin-top: -42px;
+        margin-right: 580px;
+        margin-left: 0;
+        float: right;
+        background: #fff;
+        color: #261565;
+        border-radius: 100%;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 25px;
+    }
+}
